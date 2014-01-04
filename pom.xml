@@ -1,11 +1,14 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>RecipeBookDB</groupId>
+	<groupId>com.appspot.recipebookdb</groupId>
 	<artifactId>RecipeBookDB</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>RecipeBookDB</name>
 	<packaging>war</packaging>
+	<properties>
+		<appengine.target.version>1.8.8</appengine.target.version>
+	</properties>
 	<build>
 		<sourceDirectory>src</sourceDirectory>
 		<resources>
@@ -72,7 +75,4 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-	<properties>
-		<appengine.target.version>1.8.8</appengine.target.version>
-	</properties>
 </project>
